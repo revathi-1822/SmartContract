@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "displaydata",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "displaylastvalue",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "temp",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "humidity",
+						"type": "string"
+					}
+				],
+				"name": "insertvalues",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/sensor.sol": "sensor"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/sensor.sol": {
+			"keccak256": "0x4b4d60f95516e544342b20f8cd40c80fa5f5f9553760a0bf27d5a0e0fb3dae36",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b6993fd53bdea78d27427db444fac8144256794573229959c39e06e111fa944e",
+				"dweb:/ipfs/QmYjYYHsRrLVi5eFB2sxeSm1Qttss29XTYfzJVicCqUJ8f"
+			]
+		}
+	},
+	"version": 1
+}
